@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            border: 3px solid #4CAF50;
+        }
+        .img1 {
+            float : right;
+        }
+        .clearfix {
+            overflow: auto;
+        }
+        .img2 {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <p>Dalam contoh ini, gambar lebih tinggi dari elemen yang memuatnya, dan itu overflow dari penampunganya</p>
+    <div>
+        <img class="img1" src="img/logo.png" alt="logo.png" width="170" height="170">
+        lorem ipsum dolor sit amet, consectetur adipiscing elit phasellus imperdie
+        interdum...
+    </div>
+
+    <p style="clear: right;">Tambahkan kelas clearfix dengan overflow: auto;ke elemen yang mengandung
+    untuk memperbaiki masalah ini:</p>
+    <div class="clearfix">
+        <img class="img2" src="img/logo.png" alt="logo.png" width="170" height="170">
+        lorem ipsum dolor sit amet, consectetur adipiscing elit phasellus imperdie
+        interdum...
+    </div>
+</body>
+</html>
