@@ -1,7 +1,4 @@
 const API_KEY = 'db7e88f6b5695c837e613c7ef03c8593';
-// API_KEY source : https://api.themoviedb.org/3/movie/550?api_key=42334c9eaf89c05afd88a5dd58b581d3
-
-//retrive all movie genres when the document is ready
 var genres = {};
 $(() => {
     $.get('https://api.themoviedb.org/3/genre/movie/list', { api_key: API_KEY })
