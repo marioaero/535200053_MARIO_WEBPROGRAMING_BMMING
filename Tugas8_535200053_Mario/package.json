@@ -1,0 +1,16 @@
+{
+  "name": "mario",
+  "version": "1.0.0",
+  "description": "Mario-535200053",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mario",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-status-codes": "^2.1.4",
+    "mssql": "^7.2.1"
+  }
+}
